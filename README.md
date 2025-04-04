@@ -140,3 +140,53 @@ There are also other patterns like MVP and MVI that work similarly with slight d
 
 ## How did I deal with it?
 Honestly, I just slowed down and took it one step at a time. I watched the walkthrough video again, followed the steps carefully, and tested things before pushing anything. For MVC, once I started comparing it to how I’ve been organizing my PHP and JS code, it started to make more sense. I realized I don’t need to use a big framework to follow good structure.
+
+# Week 11
+
+## OOP Concepts – My Understanding
+
+This week was all about Object-Oriented Programming (OOP) — something I was already a bit familiar with, but this time I got a much deeper understanding of the core principles. We talked about the big four: Encapsulation, Abstraction, Inheritance, and Polymorphism. It sounds fancy, but honestly, once I broke it down, it all made a lot more sense.
+
+### Encapsulation
+
+Basically, this is about keeping things private and only letting other parts of your code access them in safe, controlled ways.
+
+In our group project, we’re storing user info like usernames and passwords. Instead of exposing those directly, we’re creating functions to get or update that data — so users can’t just mess with the database from the front end. For example, our PHP functions check inputs before updating the database. That’s encapsulation in real life.
+
+### Abstraction
+
+Abstraction is about hiding complexity and only showing the important stuff. We’re doing this by making simple functions in PHP like createTask() or updateStatus() that handle all the messy SQL behind the scenes.
+
+So when a user marks a task as “Done,” the JavaScript sends a request, and PHP handles everything in the background. The user doesn’t see any of the internal logic — it’s just smooth and simple on the front end.
+
+### Inheritance
+
+We haven’t directly used inheritance in the classic OOP way (like parent and child classes), but I can see how it would help if we were using a PHP framework or building out reusable components. For example, if we had a base “User” class, we could have Admin, Manager, or Member classes inherit shared functionality and just customize what’s different.
+
+### Polymorphism
+
+This concept feels a little more abstract, but I understand it as writing one function that behaves differently depending on the object it’s called on. If we had a notifyUser() function, it could send an email to Admins, a Slack message to Team Leads, or a popup to Members — all depending on their role. Same function, different behavior — that’s polymorphism.
+
+### How We’re Using OOP in Our Group Project (STMS)
+
+Our project is built in PHP, MySQL, and JavaScript. PHP supports object-oriented programming really well, and we’ve been using it to organize things better as the project grows.
+
+We’re not using full-on classes for every little thing (yet), but we are starting to build more structured PHP files — and I can totally see how using classes could help us clean up repeated code for things like:
+
+User authentication
+Task creation and assignment
+Status tracking and updates
+As our project gets bigger, I think we’ll benefit a lot from converting some of our logic into proper classes.
+
+
+Is PHP an Object-Oriented Language?
+Yes — PHP is fully OOP-capable. It supports classes, inheritance, interfaces, and all the other classic OOP features. But it also supports procedural programming, which means you can just write regular functions and script-style code too. That flexibility makes it perfect for my level right now, as I learn to use OOP where it makes sense.
+
+It’s also kind of cool that JavaScript supports object-oriented concepts too (even if it's a bit different). So technically, our whole stack supports OOP in some form — we just need to be intentional about using it.
+
+What was the most challenging part?
+Understanding how to apply OOP in PHP without overcomplicating things was tricky. I didn’t want to suddenly turn everything into classes just because we learned it this week — but I also didn’t want to ignore it either.
+
+How did I deal with it?
+I looked at some examples online and focused on refactoring just one small part of our app (user handling) into a class structure. That helped me understand the benefit without getting overwhelmed. It’s still a work in progress, but it feels more manageable now.
+
