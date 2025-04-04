@@ -137,3 +137,6 @@ It’s still popular in web dev — especially with frameworks like Ruby on Rail
 On mobile, things are changing — iOS and Android are using newer patterns like MVVM (Model-View-ViewModel)
 
 There are also other patterns like MVP and MVI that work similarly with slight differences
+
+## How did I deal with it?
+Honestly, I just slowed down and took it one step at a time. I watched the walkthrough video again, followed the steps carefully, and tested things before pushing anything. For MVC, once I started comparing it to how I’ve been organizing my PHP and JS code, it started to make more sense. I realized I don’t need to use a big framework to follow good structure.
