@@ -110,3 +110,7 @@ After that, we’ll move into creating and assigning tasks, with deadlines and p
 We’re following good practices like using pull requests, writing clear commit messages, and documenting our process in a README and CONTRIBUTING file. Even though 
 
 we’re not using MVC, we’re keeping our code modular by separating frontend (HTML/JS), backend (PHP), and database queries (SQL) into different files.
+
+# Week 10
+
+## Understanding the MVC Pattern
