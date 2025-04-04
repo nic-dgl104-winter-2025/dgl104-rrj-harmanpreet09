@@ -114,3 +114,26 @@ we’re not using MVC, we’re keeping our code modular by separating frontend (
 # Week 10
 
 ## Understanding the MVC Pattern
+
+This week we focused on learning about MVC — which stands for Model-View-Controller. It’s basically a way to structure your code in a clean and organized way, especially for bigger projects.
+
+I’m not using a fancy framework like Laravel or Django in my project, but I still found MVC super helpful. Even in my own setup with PHP, JavaScript, and MySQL, I realized I’ve kind of been following the same idea without knowing it.
+
+## Here's how I understand MVC now:
+
+Model
+This is where all the data lives — the part that talks to the database (MySQL in our case). It handles things like storing tasks, updating status, deleting records, and all that back-end stuff. It doesn’t care about how things look or how users interact with the app.
+
+View
+The View is what the user sees — basically the interface. In our project, this is built with HTML and JavaScript. It shows things like the task list, forms, and buttons. It doesn’t do any processing — just displays whatever the backend gives it.
+
+Controller
+The Controller is the one in the middle. It connects the view and the model. So, if I click a “Create Task” button, the controller catches that action, sends the data to the model, and once the model updates the database, it sends the result back to the view.
+
+## Where MVC is used today
+
+It’s still popular in web dev — especially with frameworks like Ruby on Rails, Laravel, and Django
+
+On mobile, things are changing — iOS and Android are using newer patterns like MVVM (Model-View-ViewModel)
+
+There are also other patterns like MVP and MVI that work similarly with slight differences
