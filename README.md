@@ -76,3 +76,37 @@ This pattern helps create objects without having to know exactly which one you n
 
 4. MVC (Model-View-Controller)
 This one helps separate your app into three parts: the data (model), the user interface (view), and the logic (controller). We’re planning to use this in our group project so it doesn’t turn into a messy pile of code later.
+
+### Group Project Progress – Smart Task Management System (STMS)
+
+The idea behind our project is to create a smart system where users can easily create, assign, and track tasks. But instead of just a basic to-do list, we’re planning to add features like:
+
+AI that suggests task priorities
+
+Different user roles like Admin, Team Lead, and Team Member
+
+Notifications when tasks are updated
+
+Task status tracking (To Do, In Progress, Done)
+Visual dashboards and reports
+
+And more advanced stuff like task dependencies and auto-assignment!
+
+We're using PHP, MySQL, and JavaScript to build the system. So instead of using a heavy framework like Laravel or MVC architecture, we're keeping things a bit more lightweight and flexible. PHP will handle the backend logic, MySQL stores the task and user data, and JavaScript is used to make the site interactive and dynamic on the frontend.
+
+ What We've Done So Far
+Right now, we’re in Phase 1, and here’s what we’ve worked on:
+
+We created our GitHub repository and shared it with the instructor
+ 
+We planned out the key features we want to build and assigned tasks within the group
+
+We started setting up the file structure using PHP for the backend and MySQL for the database
+
+ We’re starting to build user registration and login functionality (with different roles)
+ 
+After that, we’ll move into creating and assigning tasks, with deadlines and priority levels
+
+We’re following good practices like using pull requests, writing clear commit messages, and documenting our process in a README and CONTRIBUTING file. Even though 
+
+we’re not using MVC, we’re keeping our code modular by separating frontend (HTML/JS), backend (PHP), and database queries (SQL) into different files.
