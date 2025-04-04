@@ -190,3 +190,4 @@ Understanding how to apply OOP in PHP without overcomplicating things was tricky
 How did I deal with it?
 I looked at some examples online and focused on refactoring just one small part of our app (user handling) into a class structure. That helped me understand the benefit without getting overwhelmed. It’s still a work in progress, but it feels more manageable now.
 
+# Week 12
