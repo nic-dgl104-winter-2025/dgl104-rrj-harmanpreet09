@@ -2,7 +2,7 @@
 # Rsearch and Reflection Journal
 Research and Reflection Journal for DGL 104 course
 
-WEEK 8
+# WEEK 8
 
 This week felt like a big shift in the course. So far, we’ve mostly been learning the basics of good coding — like writing clear documentation, fixing bugs, testing, and reviewing code — through activities like the MIT App Inventor assignment and the Programming Practice Article. Now, we’re stepping into real development, where we’ll start building with a specific programming language and focus on things like design patterns, app structure, and writing actual user requirements.
 
@@ -53,3 +53,26 @@ Tagged users show up as clickable names on the post.
 The tagged person gets a notification.
 
 Doing this helped me think like a developer. It’s not just about what the feature is, but also how it should behave and how the user will interact with it.
+
+
+# Week 9 
+
+This week was all about learning how to write better, smarter code — and also how to be part of something bigger by contributing to open source projects. We also continued working on our group project, which is starting to feel real now!
+
+## What Are Design Patterns, and Why Do They Matter?
+
+I spent time learning about design patterns, which are like reusable solutions for common coding problems. They’re not pieces of code you just copy and paste, but more like blueprints or ideas you can use in your own way. The cool part is that other developers understand these patterns too, so it makes teamwork and maintenance way easier.
+
+## Here are four patterns I looked into:
+
+1. Singleton Pattern
+This one makes sure you only have one version of something — like a login session or a settings manager. I can see myself using this if I ever build an app where users need to stay logged in.
+
+2. Observer Pattern
+This one’s like the "notify me" option on YouTube. When something changes, like someone uploads a video, all the subscribers (observers) get notified. I could use this in apps where users follow updates or posts.
+
+3. Factory Pattern
+This pattern helps create objects without having to know exactly which one you need ahead of time. For example, if someone selects “dog” or “cat” in a pet adoption app, the factory pattern would generate the right kind of pet object.
+
+4. MVC (Model-View-Controller)
+This one helps separate your app into three parts: the data (model), the user interface (view), and the logic (controller). We’re planning to use this in our group project so it doesn’t turn into a messy pile of code later.
